@@ -1,0 +1,30 @@
+[
+    {
+      "document": "The policy applies to Entity A under condition X. The maximum allowable limit is 10 units. Exceptions include emergency scenarios.",
+      "gold": {
+        "entity": "Entity A",
+        "condition": "condition X",
+        "numeric_limit": "10 units",
+        "exceptions": "emergency scenarios"
+      }
+    },
+    {
+      "document": "The policy applies to Entity B under condition Y. The maximum allowable limit is 5 units.",
+      "gold": {
+        "entity": "Entity B",
+        "condition": "condition Y",
+        "numeric_limit": "5 units",
+        "exceptions": ""
+      }
+    },
+    {
+      "document": "The policy applies to Entity C under condition Z.",
+      "gold": {
+        "entity": "Entity C",
+        "condition": "condition Z",
+        "numeric_limit": "",
+        "exceptions": ""
+      }
+    }
+  ]
+  
