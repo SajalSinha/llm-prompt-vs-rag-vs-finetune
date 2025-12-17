@@ -28,3 +28,12 @@ The target output schema is:
   "numeric_limit": "",
   "exceptions": ""
 }
+
+## Known Failure Modes (Prompt-Only)
+Initial experiments show that prompt-only extraction suffers from:
+- Structural violations (non-JSON output)
+- Aggregation errors on multi-entity documents
+- Overgeneration and prompt echoing
+
+These failures motivate the use of retrieval and fine-tuning approaches.
+
