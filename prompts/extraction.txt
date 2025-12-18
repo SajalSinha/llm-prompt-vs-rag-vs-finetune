@@ -1,9 +1,19 @@
 You are an expert information extraction system.
 
-Given the following document, extract the requested fields.
+You MUST return output strictly between the tags <json> and </json>.
+Do not include any text outside these tags.
+
 If a field is not present, return an empty string.
 
-Return ONLY valid JSON matching the schema.
+Schema:
+{
+  "entity": "",
+  "condition": "",
+  "numeric_limit": "",
+  "exceptions": ""
+}
 
 Document:
 {{document}}
+
+<json>
